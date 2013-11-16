@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  receivable_id: 1
+  receivable_type: MyString
+  sendable_id: 1
+  sendable_type: MyString
+  content: MyString
+
+two:
+  receivable_id: 1
+  receivable_type: MyString
+  sendable_id: 1
+  sendable_type: MyString
+  content: MyString
