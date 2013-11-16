@@ -1,4 +1,5 @@
 class ParticipantsController < ApplicationController
+  before_filter :authenticate_coordinator!
   before_action :set_participant, only: [:show, :edit, :update, :destroy]
 
   # GET /participants
